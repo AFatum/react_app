@@ -1,0 +1,26 @@
+ul.container {
+  background: #ddd;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  //margin-top: 10px;
+  border-bottom: 3px solid brown;
+  a {
+    color: brown;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    padding: 10px 15px;
+    
+    &:hover, &.active {
+      background: brown;
+      color: #ffdab6;
+    }
+  }
+  box-shadow: 1px -1px 3px 2px #93060661;
+}
+
+header {
+  margin: 15px 0;
+}
